@@ -10,15 +10,15 @@
 </head>
 
 <body>
-    <header>
-        <h1>Welcome to my Phone Hunter!</h1>
+    <header class="text-center">
+        <h1 class="text-info p-4">Welcome to my Phone Hunter!</h1>
     </header>
     <main class="container">
         <section>
-            <div class="mb-3 w-50">
+            <div class="mb-3 w-50 d-flex mx-auto">
                 <input id="search-field" type="email" class="form-control" id="exampleFormControlInput1"
                     placeholder="search your phone">
-                <div id="btn-search" class="btn btn-primary">Search</div>
+                <div id="btn-search" class="btn btn-primary ms-2">Search</div>
             </div>
         </section>
         <!-- display Search Result -->
@@ -43,7 +43,7 @@
         </section>
         <!-- modal contents -->
         <section>
-            
+
             <!-- Modal -->
             <div class="modal fade" id="phoneDetailModal" tabindex="-1" aria-labelledby="phoneDetailModalLabel"
                 aria-hidden="true">
@@ -54,7 +54,7 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div id="phone-details" class="modal-body">
-                            
+
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
